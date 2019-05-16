@@ -31,7 +31,7 @@ The state space is a continuous 8 dimensional vector that contains e.g. the posi
 A reward of `+0.1` is provided whenever an agent hits the ball over the net.
 A reward of `-0.01` is provided whenever the ball hits the ground or falls out of bounds.
 
-The task is episodic. The problem is considered solved once the average score of the last 100 episodes is greater than 0.5.
+The task is episodic. The problem is considered solved once the average score of the last 100 episodes is greater than `0.5` where each single score of an episode is considered the maximum of the two agents' scores.
 
 ## How to use
 
